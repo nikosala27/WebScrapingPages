@@ -47,7 +47,7 @@ class GUI():
         # text
         text_box = Text(left_frame, wrap=WORD, bg='#3a7ff6', fg='#ffffff', font=("Segoe UI Semibold", 12, "bold"), bd=0, highlightthickness=0)
         text_box.place(relx=0.5, rely=0.5, anchor=CENTER, relwidth=0.9, relheight=0.8)
-        text_box.insert(1.0, "Scraper to program służący do wykonywania całościowych zrzutów wybranych stron internetowych dla celów analitycznych.\n\n1. Wybrać stronę zrzutu\n2.Wybrać ścieżkę gdzie zapisać plik XML\n3.Wpisać swój token użytkownika\n\n\n\n\n\n\n\n\nWłaścicielem programu jest Nikodem Sala, pytania i informacje o błędach kierować na mail: nikodemsala@lyson.com.pl")
+        text_box.insert(1.0, "Scraper to program służący do wykonywania całościowych zrzutów wybranych stron internetowych dla celów analitycznych.\n\n1. Wybrać stronę zrzutu\n2.Wybrać ścieżkę gdzie zapisać plik XML\n3.Wpisać swój token użytkownika\n\n\n\n\n\n\n\n\nWłaścicielem programu jest XXX, pytania i informacje o błędach kierować na mail: XXX")
         text_box.config(state=DISABLED)
 
         # Right frame
